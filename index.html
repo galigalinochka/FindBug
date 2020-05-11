@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Найди баг</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:700&amp;display=swap&amp;subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <span class="header-main">Выберите уровень сложности:</span>
+            <span class="header-secondary">Выберите сложность и игра начнется. Чем выше уровень - тем больше будет выборка карт.</span>
+        </header>
+        <div class="content">
+          <main class="main">
+              <div class="menu-items">
+                <button class="menu-item selected" id="simple">Простой</button>
+                <button class="menu-item" id="middle">Средний</button>
+                <button class="menu-item" id="hard" >Сложный</button>
+              </div>
+              <button class="start-button" id="start-button">Начать игру</button>
+         </main>
+          <aside class="image">
+              <img src="./img/image.png" alt="card" class="image-block">
+          </aside>
+        </div>
+    </div>
+
+    <div class="game-field">
+      <div class="cards">
+        
+      </div>
+    </div>
+  <script src = "script.js"></script>  
+</body>
+</html>
